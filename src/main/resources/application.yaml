@@ -1,0 +1,16 @@
+telegram:
+  token: ${BOT_TOKEN}
+  username: ${BOT_NAME}
+  path: ${BOT_PATH}
+spring:
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+server:
+  port: ${PORT}
+
